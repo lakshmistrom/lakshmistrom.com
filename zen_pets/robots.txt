@@ -1,0 +1,4 @@
+Sitemap: http://sws.pcc.edu/student/CAS180_stwatson_34258/34258_guest5/sitemap.xml
+
+User-agent: *
+Disallow:

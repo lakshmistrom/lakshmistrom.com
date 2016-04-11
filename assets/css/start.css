@@ -1,0 +1,428 @@
+/*********************/
+/* Colors*/
+/*black: #000000
+grey: #666666
+white: #FFFFFF
+pink: #ED2C92*/
+/*********************/
+
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/*********************/
+/* BASIC */
+/*********************/
+
+body {
+	font-family: "Century Gothic", "Gill Sans", Arial, sans-serif;
+	font-size: 62.5%;
+	margin: 0;
+	padding: 0;
+	background-color: #F2F2F2;
+}
+
+p,h1,h2,h3,h4,h5,h5,ol,ul {
+	padding: 0px;
+}
+
+#main {
+	padding: 15px 0px;
+	background-color: #ffffff;
+	
+}
+
+/*********************/
+/* MAIN */
+/*********************/
+#buttons {
+	background-color: #F2F2F2;
+	height: 70px;
+}
+#contact {
+	background-color: #594A71;
+	height: 100px;
+	padding: 20px 40px 15px 40px;
+}
+#contact h1 {
+	font-family: "Anna", "Gill Sans", Arial, sans-serif;
+	text-align: left;
+	color: #595859;
+	margin: 5px 0px;
+	font-size: 2.4em;
+}
+#contact ul li {
+	display: inline-block;
+	
+}
+
+#contact ul {
+	float:left;
+	margin-top: 6px;
+}
+
+#contactNameElements {
+	float: left;
+	margin-right: 15px;
+	margin-left: 10px;
+	
+}
+#contactNameElements h1 {
+	color: #F2F2F2;
+}
+#contactNameElements p {
+	color: #FDDDEA;
+}
+.contactIconElement {
+	float: left;
+}
+
+.contactTextElement {
+	float: left;
+	height: 50px;
+	line-height: 50px;
+	font-size: 1em;
+	color: #FDDDEA;
+	
+}
+
+.contactTextElement a:link {
+	text-decoration: none;
+	color: #FDDDEA; 
+}
+.contactTextElement a:visited {
+	text-decoration: none;
+	color: #FDDDEA;
+}
+.contactTextElement a:hover {
+	text-decoration: underline;
+	color: #FDDDEA;
+}
+.contactTextElement a:active {
+	text-decoration: none;
+	color: #FDDDEA;
+}
+
+#wrapper {
+	width: 850px;
+	margin: 30px auto;
+}
+
+h1 {
+	font-family: "Anna", "Gill Sans", Arial, sans-serif;
+	text-align: right;
+	color: #595859;
+	margin: 5px 39px;
+	font-size: 2.4em;
+}
+.section {
+	display: inline;
+	color: #999999;
+	font-weight: normal;
+}
+
+.left {
+
+	margin: 10px 5px 10px 30px;
+	float: left;
+}
+
+p {
+	color: #000000;
+	font-size: 1.3em;
+
+}
+h2 {
+	color: #999999;
+	font-size: 1.9em;
+	margin-top: 10px;
+	overflow: hidden;
+	padding-top: 0px;
+}
+
+#main ul {
+	font-family: "Century Gothic", "Gill Sans", Arial, sans-serif;
+	font-size: 1.6em;
+	list-style-type: disc;
+	padding: 0px;
+	margin: 19px;
+	text-align: left;
+}
+
+.publicationsList {
+	color: #999999;
+}
+
+.publicationsText {
+	color: #000000;
+}
+
+a {
+	color: #ED2C92;
+}
+.box {
+	padding: 35px 20px;
+	float: left;
+}
+
+.box div {
+	padding: 5px 0px;
+	margin: 5px 0px;
+}
+.text {
+	padding: 5px 5px 5px 5px;
+	margin: 5px 5px 5px 5px;
+	text-align: center;
+	width: 150px;
+	height: 60px
+}
+.paragraphText {
+	padding: 5px;
+	margin: 5px;
+	text-align: left;
+	width: 425px;
+	float:left;
+}
+.paragraphText p {
+	margin-left: 9px;
+}
+.clearFloat {
+	clear: both;
+}
+.heading {
+	float: left;
+	padding: 5px;
+	margin: 5px;
+	text-align: right;
+	width: 150px;
+	color: #595859;
+}
+.heading p {
+	margin-right: 9px;
+}
+/*********************/
+/*CONTACT PAGE*/
+/*********************/
+
+#subform {
+  font-size: .8em;
+}
+
+#subForm .label {
+  float: left;
+  width: 230px;
+  margin-right: 10px;
+  text-align: left;
+  font-weight: bold;
+  clear: left;
+}
+
+#subscribe {
+  background-color: #999999;
+  font-family: "Century Gothic", "Gill Sans", Arial, sans-serif;
+}
+
+#refer {
+  font-family: "Century Gothic", "Gill Sans", Arial, sans-serif;
+}
+
+#name, #email, #comments {
+  background-color: #999999;
+  font-family: "Lucida Console", Monaco, monospace;
+  font-size: .9em;
+  width: 300px;
+  margin-top: -2px;
+}
+
+#name:focus, #email:focus, #comments:focus, #refer:focus {
+  background-color: #FFFFFF;
+}
+
+/*********************/
+/* PORTFOLIO PAGE*/
+/*********************/
+.gallerybtn {
+	width: 100px;
+	height: 200px;
+	display: block;
+	margin: 10px auto;
+	border-bottom-color: #000000;
+	color: #000000;
+	border-bottom-width: medium;
+	border-bottom: solid;
+}
+
+#ibtn:hover {
+	background-image: url('../images/i.png');
+}
+
+#ibtn {
+	background-image: url('../images/iroll.png');
+}
+#logobtn:hover {
+	background-image: url('../images/logo.png');
+}
+
+#logobtn {
+	background-image: url('../images/logoroll.png');
+}
+#webbtn:hover {
+	background-image: url('../images/wd.png');
+}
+
+#webbtn {
+	background-image: url('../images/wdroll.png');
+}
+#gdbtn:hover {
+	background-image: url('../images/gd.png');
+}
+#gdbtn {
+	background-image: url('../images/gdroll.png');
+}
+#mobilebtn:hover {
+	background-image: url('../images/m.png');
+}
+#mobilebtn {
+	background-image: url('../images/mroll.png');
+}
+#motionbtn:hover {
+	background-image: url('../images/motion.png');
+}
+#motionbtn {
+	background-image: url('../images/motionroll.png');
+}
+#artbtn:hover {
+	background-image: url('../images/art.png');
+}
+#artbtn {
+	background-image: url('../images/artroll.png');
+}
+#photobtn:hover {
+	background-image: url('../images/photo.png');
+}
+#photobtn {
+	background-image: url('../images/photoroll.png');
+}
+/*********************/
+/* BANNER STYLES */
+/*********************/
+
+#banner {
+	position: relative;
+	background-color: #ffffff;
+}
+
+/*********************/
+/* MAIN NAV */
+/*********************/
+.spacer {
+	height: 3px;
+	background-color: #FDDDEA;
+}
+#nav {
+	margin-bottom: 0px;
+	padding: 10px 0px;
+	position: relative;
+	width: 850px;
+	text-align: right;
+	background-color: #F2F2F2;
+}
+
+#nav ul {
+	padding: 0px 40px;
+}
+
+#nav ul li {
+	list-style-type: none;
+	padding: 0px;
+	margin: 0;
+	text-align: center;
+	display: inline-block;
+}
+
+#nav a {
+	display: block;
+	font-size: 11px;
+	color: #000000;
+	padding: 4px 0px 4px 10px;
+	font-weight: bold;
+	margin-bottom: 2px;
+	border-radius: 10px;
+}
+
+#nav a:hover {
+	color: #ED2C92;
+}
+
+/*highlight "you are here" buttons*/
+#home #nav a#homeLink,
+#feature #nav a#featureLink {
+	background: #FFFFFF;
+	border-right: 1px solid #14556B;
+	border-bottom: 1px solid #14556B;
+	color: #ED2C92;
+}
+
+#logo {
+	background: #FFFFFF;
+	margin: 0px 20px;
+	padding: 20px 0px;
+}
+
+/*********************/
+/* FOOTER */
+/*********************/
+#footer {
+	padding: 5px;
+	text-align: right;
+	background-color: #F2F2F2;
+}
+
+hr {
+	color: #000000;
+}
